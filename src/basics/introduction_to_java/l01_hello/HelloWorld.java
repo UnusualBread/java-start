@@ -1,4 +1,4 @@
-package basics.introduction_to_java.lesson_01_hello;
+package basics.introduction_to_java.l01_hello;
 
 public class HelloWorld {
     public static void main(String[] args) {
