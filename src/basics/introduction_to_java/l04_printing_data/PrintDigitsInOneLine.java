@@ -1,4 +1,4 @@
-package basics.introduction_to_java.l03_printing_data;
+package basics.introduction_to_java.l04_printing_data;
 /*
 Write a program that prints numbers from 0 to 9, but
 in the backward order. All numbers must be in the same line.

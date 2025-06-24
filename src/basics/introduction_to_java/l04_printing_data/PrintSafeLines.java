@@ -1,4 +1,4 @@
-package basics.introduction_to_java.l03_printing_data;
+package basics.introduction_to_java.l04_printing_data;
 /*
 Your task is to write a program that displays the code
 panel of the safe. Don't forget to put one space between
