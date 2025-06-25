@@ -1,4 +1,4 @@
-package basics.introduction_to_java.l04_printing_data;
+package C01_basics.M01_introduction_to_java.L04_printing_data;
 /*
 Your task is to write a program that displays the code
 panel of the safe. Don't forget to put one space between
@@ -12,7 +12,7 @@ Sample Output 1:
 7 8 9
 * 0 #
 */
-public class PrintSafeLines {
+public class T01_PrintSafeLines {
     public static void main(String[] args) {
         System.out.println("1 2 3");
         System.out.println("4 5 6");

@@ -1,6 +1,6 @@
-package basics.introduction_to_java.l02_basic_literals;
+package C01_basics.M01_introduction_to_java.L02_basic_literals;
 
-public class BasicLiterals {
+public class T01_BasicLiterals {
     public static void main(String[] args){
         int numApples = 1000000;
         int numPackedApples = 1_000_000;
