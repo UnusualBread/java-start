@@ -1,0 +1,15 @@
+package basics.types_and_variables.l01_assigning_values;
+/*
+Given four variables. Assign values to these variables.
+The variable one should be 1, two should be 2,
+three should be 3 and four should be 4.
+*/
+public class AssignValues {
+    public static void main(String[] args) {
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        int four = 4;
+
+        System.out.println(one + " " + two + " " + three + " " + four);    }
+}
