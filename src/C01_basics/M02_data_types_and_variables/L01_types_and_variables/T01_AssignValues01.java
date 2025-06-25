@@ -1,4 +1,4 @@
-package C01_basics.M02_types_and_variables.L01_assigning_values;
+package C01_basics.M02_data_types_and_variables.L01_types_and_variables;
 /*
 Given four variables. Assign values to these variables.
 The variable one should be 1, two should be 2,
