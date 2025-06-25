@@ -2,17 +2,21 @@ package C01_java.M01_basics.S04_operations_on_types.L01_integer_types_and_operat
 
 import java.util.Scanner;
 
+/*
+Write a program that reads an integer value n from the standard
+input and outputs the result of the following arithmetic expression:
+((n + 1) * n + 2) * n + 3
+*/
+
 public class T01_CalculateExpression {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        String name = sc.next();
-        String surname = sc.next();
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
 
-        System.out.println(n + " " + name + " " + surname);
-        //System.out.println(name);
+        int result = ((n + 1) * n + 2) * n + 3;
 
+        System.out.print(result);
 
-        sc.close();
+        scanner.close();
     }
 }
