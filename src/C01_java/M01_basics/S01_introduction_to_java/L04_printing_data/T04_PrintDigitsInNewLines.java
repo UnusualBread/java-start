@@ -1,4 +1,4 @@
-package C01_basics.M01_introduction_to_java.L04_printing_data;
+package C01_java.M01_basics.S01_introduction_to_java.L04_printing_data;
 /*
 Write a program that prints numbers from 0 to 4 inclusive.
 Each number must be on a new line.

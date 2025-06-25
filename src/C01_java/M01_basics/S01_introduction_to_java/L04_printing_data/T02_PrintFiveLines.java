@@ -1,4 +1,4 @@
-package C01_basics.M01_introduction_to_java.L04_printing_data;
+package C01_java.M01_basics.S01_introduction_to_java.L04_printing_data;
 /*
 Write a program that prints exactly the following 5 lines:
 

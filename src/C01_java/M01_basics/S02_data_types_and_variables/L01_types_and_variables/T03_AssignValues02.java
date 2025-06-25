@@ -1,4 +1,4 @@
-package C01_basics.M02_data_types_and_variables.L01_types_and_variables;
+package C01_java.M01_basics.S02_data_types_and_variables.L01_types_and_variables;
 /*
 Change the code sample to make the output look the following way:
 3 5 4

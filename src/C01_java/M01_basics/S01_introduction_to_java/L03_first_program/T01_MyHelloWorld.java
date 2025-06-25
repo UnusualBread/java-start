@@ -1,4 +1,4 @@
-package C01_basics.M01_introduction_to_java.L03_first_program;
+package C01_java.M01_basics.S01_introduction_to_java.L03_first_program;
 /*
 Write a program that prints the phrase Hello, World!
 */
