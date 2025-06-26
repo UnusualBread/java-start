@@ -9,7 +9,7 @@ increases it by 3. The final computed integer should be printed
 as the output.
 */
 
-public class IncreaseInteger {
+public class T01_IncreaseInteger {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
