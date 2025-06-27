@@ -9,7 +9,7 @@ else print "FALSE". You should first scan an integer 'a' and then scan an
 integer 'b'.
 */
 
-public class T01_CompareTwoIntegers {
+public class T01_CompareTwoIntegers_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int firstInteger = scanner.nextInt();
