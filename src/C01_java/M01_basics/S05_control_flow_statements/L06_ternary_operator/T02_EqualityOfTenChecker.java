@@ -1,4 +1,4 @@
-package C01_java.M01_basics.S05_control_flow_statements.L06_ternary_operatot;
+package C01_java.M01_basics.S05_control_flow_statements.L06_ternary_operator;
 
 import java.util.Scanner;
 
