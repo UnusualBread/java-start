@@ -1,4 +1,4 @@
-package C01_java.M01_basics.S05_control_flow_statements.L05_while_and_do_while_loops;
+package C01_java.M01_basics.S05_control_flow_statements.L05_while_and_do_while;
 
 import java.util.Scanner;
 
