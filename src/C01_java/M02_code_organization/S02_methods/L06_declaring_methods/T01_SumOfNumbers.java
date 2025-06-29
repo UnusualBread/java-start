@@ -1,4 +1,4 @@
-package C01_java.M02_code_organization.S02_methods;
+package C01_java.M02_code_organization.S02_methods.L06_declaring_methods;
 
 import java.util.Scanner;
 
