@@ -5,7 +5,7 @@ Comment out certain lines of code to make the program output
 "Hello, Java platform".
 */
 
-public class T02_CommentExtraLines {
+public class T02_CommentExtraLines_01 {
     public static void main(String[] args) {
 
         System.out.print("Hello, ");
