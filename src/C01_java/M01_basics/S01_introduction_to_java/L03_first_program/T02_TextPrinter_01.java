@@ -5,7 +5,7 @@ Modify this program to output this text:
 Cats are robots!
 */
 
-public class T02_TextPrinter {
+public class T02_TextPrinter_01 {
     public static void main(String[] args) {
         System.out.println("Cats are robots!");
     }
