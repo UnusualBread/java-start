@@ -1,4 +1,4 @@
-package C01_java.M01_basics.S04_operations_on_types.L04_boolean_type;
+package C01_java.M01_basics.S04_operations_on_types.L04_boolean_type_and_operations;
 
 import java.util.Scanner;
 

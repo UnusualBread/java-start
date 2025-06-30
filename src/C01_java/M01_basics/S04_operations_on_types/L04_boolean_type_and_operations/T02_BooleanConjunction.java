@@ -7,7 +7,7 @@ logical conjunction (AND operation) is true, else print 'false'.
 
 import java.util.Scanner;
 
-public class T07_BooleanConjunction {
+public class T02_BooleanConjunction {
     public static void main(String[] args) {
         // Initialize Scanner object to read the input
         Scanner in = new Scanner(System.in);
