@@ -7,7 +7,7 @@ Write a program that reads three strings from input and
 prints them in the reverse order, each on a new line.
 */
 
-public class T04_LineReverser {
+public class T04_LinesReverser_01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String firstLine = sc.nextLine();
