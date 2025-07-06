@@ -8,7 +8,7 @@ Then output the array.
 
 import java.util.Arrays;
 
-public class T01_ArrayInitializer {
+public class T01_ArrayInitializer_01 {
 
     public static void main(String[] args) {
 
