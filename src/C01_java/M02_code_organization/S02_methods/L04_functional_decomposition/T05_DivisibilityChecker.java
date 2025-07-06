@@ -16,12 +16,12 @@ public class T05_DivisibilityChecker {
         int num = scanner.nextInt();
 
         // function calls of isDivByThree, isDivByFive, isDivByThreeAndFive will be here
-        if (isDivByThree(num) && !isDivByFive(num)) {
-            System.out.println("Fizz");
-        } else if (isDivByFive(num) && !isDivByThree(num)) {
-            System.out.println("Buzz");
-        } else if (isDivByThreeAndFive(num)) {
+        if (isDivByThreeAndFive(num)) {
             System.out.println("FizzBuzz");
+        } else if (isDivByThree(num)) {
+            System.out.println("Fizz");
+        } else if (isDivByFive(num)) {
+            System.out.println("Buzz");
         } else {
             System.out.println("None");
         }
