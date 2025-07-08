@@ -8,7 +8,7 @@ next to each other in the array (in any order).
 
 import java.util.Scanner;
 
-public class T04_AreNeighbours {
+public class T04_AreNeighboursChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int totalNumbers = sc.nextInt();
