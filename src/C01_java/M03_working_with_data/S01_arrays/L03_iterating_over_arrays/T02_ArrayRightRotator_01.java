@@ -8,7 +8,7 @@ rotation on an array by a given number.
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class T02_ArrayRightRotator {
+public class T02_ArrayRightRotator_01 {
     // implement me
     private static void rotate(int[] arr, int steps) {
         int len = arr.length;
