@@ -6,7 +6,7 @@ Write a program that calculates the sum of the elements of an array of ints.
 
 import java.util.Scanner;
 
-public class T07_SumOfArrayGetter {
+public class T07_SumOfArrayGetter_01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int totalNumbers = sc.nextInt();
