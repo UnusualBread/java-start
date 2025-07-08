@@ -7,7 +7,7 @@ The program must check if the array contains that number.
 
 import java.util.Scanner;
 
-public class T05_IsInArray {
+public class T05_IsInArrayChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int totalNumbers = sc.nextInt();

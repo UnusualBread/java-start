@@ -8,7 +8,7 @@ The program must check that n and m never occur next to each other
 
 import java.util.Scanner;
 
-public class T01_AreNeverNeighbours {
+public class T01_AreNeverNeighboursChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int totalNumbers = sc.nextInt();

@@ -7,7 +7,7 @@ checks whether the array is in alphabetical order or not.
 
 import java.util.Scanner;
 
-public class T11_IsAlphabeticalOrder {
+public class T11_IsAlphabeticalOrderChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] arr = sc.nextLine().split(" ");
