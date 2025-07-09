@@ -4,7 +4,7 @@
 
 ## Структура
 
-- `C02_java.M01_basics` — базовые темы
+- `C01_java.M01_basics` — базовые темы
     - `M01_introduction_to_java` — введение в Java
     - `M02_types_and_variables` — типы и переменные
 - Каждый модуль содержит уроки и задания с префиксами `Lxx` и `Txx`.
