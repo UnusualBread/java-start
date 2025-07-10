@@ -1,0 +1,4 @@
+package C01_java.M02_code_organization.S03_object_oriented_programming.MM01_classes_and_objects.SS01_classes_and_members.L05_defining_classes;
+
+public class T06_Account {
+}
