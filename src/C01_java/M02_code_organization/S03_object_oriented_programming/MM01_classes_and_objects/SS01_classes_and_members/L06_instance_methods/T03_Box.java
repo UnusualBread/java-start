@@ -7,7 +7,7 @@ The method must be named getVolume.
 It should take no arguments and return a double result.
 */
 
-class T03_Box {
+class Box {
 
     double height;
     double width;
