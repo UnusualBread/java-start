@@ -9,12 +9,12 @@ the same as presented above.
 
 class Book {
     String title;
-    int yearsOfPublishing;
-    String authors;
+    int yearOfPublishing;
+    String[] authors;
 
-    public Book(String title, int yearsOfPublishing, String authors) {
+    public Book(String title, int yearOfPublishing, String[] authors) {
         this.title = title;
-        this.yearsOfPublishing = yearsOfPublishing;
+        this.yearOfPublishing = yearOfPublishing;
         this.authors = authors;
     }
 }
