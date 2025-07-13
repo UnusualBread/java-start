@@ -1,4 +1,4 @@
-package C01_java.M02_code_organization.S03_object_oriented_programming.MM01_classes_and_objects.SS01_classes_and_members.L02_construstor;
+package C01_java.M02_code_organization.S03_object_oriented_programming.MM01_classes_and_objects.SS01_classes_and_members.L02_constructor;
 
 /*
 In the main method, create an instance of the Account class and pass it to the
