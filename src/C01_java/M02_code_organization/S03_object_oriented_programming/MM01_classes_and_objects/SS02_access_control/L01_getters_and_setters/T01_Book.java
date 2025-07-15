@@ -6,7 +6,7 @@ an int field yearOfPublishing and an array of strings authors.
 Write getters and setters for all fields. 
 */
 
-class Book {
+class T01_Book {
 
     private String title;
     private int yearOfPublishing;
