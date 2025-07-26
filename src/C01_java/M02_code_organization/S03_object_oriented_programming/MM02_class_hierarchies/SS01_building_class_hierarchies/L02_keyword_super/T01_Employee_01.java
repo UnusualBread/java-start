@@ -9,18 +9,18 @@ removing any lines of code, make the necessary additions and adjustments to
 resolve the compilation errors and accurately represent the employee hierarchy.
 */
 
-class Employee {
+class Employee_01 {
 
     protected String name;
     protected String birthDate;
 
-    public Employee(String name, String birthDate) {
+    public Employee_01(String name, String birthDate) {
         this.name = name;
         this.birthDate = birthDate;
     }
 }
 
-class RegularEmployee extends Employee {
+class RegularEmployee extends Employee_01 {
 
     protected long salary;
     protected String hireDate;
@@ -32,7 +32,7 @@ class RegularEmployee extends Employee {
     }
 }
 
-class ContractEmployee extends Employee {
+class ContractEmployee extends Employee_01 {
 
     protected long payPerHour;
     protected String contractPeriod;
