@@ -10,7 +10,7 @@ Cat, 2 for Dog), and call its makeSound() method.
 
 import java.util.Scanner;
 
-public class T04_SoundMaker {
+public class T04_SoundMaker_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int animalType = scanner.nextInt();
