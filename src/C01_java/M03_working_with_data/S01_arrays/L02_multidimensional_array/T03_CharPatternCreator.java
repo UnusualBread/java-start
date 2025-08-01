@@ -11,7 +11,7 @@ row of the array.
 
 import java.util.Scanner;
 
-public class T03_PatternCreator{
+public class T03_CharPatternCreator {
     public static void printPattern(int size) {
         char[][] arr = new char[size][size];
 
