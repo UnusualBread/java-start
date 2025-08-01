@@ -13,7 +13,7 @@ using the + operator. Your task is to rewrite the code using printf or format.
 The output mustn't change.
 */
 
-public class T02_StringPrinter {
+public class T02_StringPrinter_01 {
     public static void main(String[] args) {
         String name = "galactic hunter";
         String learning  = "java";
