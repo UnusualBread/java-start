@@ -6,7 +6,7 @@ In the given string find the first longest word and output it.
 
 import java.util.Scanner;
 
-public class T04_LongestWordFinder_02 {
+public class T08_LongestWordFinder_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String sentence = scanner.nextLine();
