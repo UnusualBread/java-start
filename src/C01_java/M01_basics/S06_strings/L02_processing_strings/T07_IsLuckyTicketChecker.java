@@ -12,7 +12,7 @@ sums match, and "Regular" if the sums differ.
 
 import java.util.Scanner;
 
-class T07_LuckyTicketChecker {
+class T07_IsLuckyTicketChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String ticketNumber = sc.nextLine();

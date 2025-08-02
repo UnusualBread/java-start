@@ -8,7 +8,7 @@ The program must output “yes” if the string is a palindrome and “no” oth
 
 import java.util.Scanner;
 
-public class T09_IsPalindrome {
+public class T09_IsPalindromeChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
