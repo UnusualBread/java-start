@@ -1,13 +1,12 @@
 package C01_java.M01_basics.S06_strings.L02_processing_strings;
 
 /*
-Write a Java program that receives a string representing a sentence. Your
-program should find the longest word in the sentence and print it out.
+In the given string find the first longest word and output it.
 */
 
 import java.util.Scanner;
 
-public class T03_LongestWordFinder {
+public class T04_LongestWordFinder_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String sentence = scanner.nextLine();
@@ -16,7 +15,7 @@ public class T03_LongestWordFinder {
         String[] words = sentence.split(" ");
 
         int maxLength = words[0].length();
-        String longestWord = "";
+        String longestWord = words[0];
 
         for (String word : words) {
             if (word.length() > maxLength) {
