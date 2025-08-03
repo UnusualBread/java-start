@@ -17,10 +17,10 @@ class T01_CharFromStringGetter {
         int index = scanner.nextInt();
         scanner.close();
 
-        try {
-            System.out.println(string.charAt(index));
-        } catch (StringIndexOutOfBoundsException e) {
+        if (index < 0 || index >= string.length()) {
             System.out.println("Out of bounds!");
+        } else {
+            System.out.println(string.charAt((index)));
         }
     }
 }
