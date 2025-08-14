@@ -1,0 +1,4 @@
+package theory.M02_code_organization.S03_object_oriented_programming.MM01_classes_and_objects.SS02_access_control.L03_protected_modifier;
+
+public class T01_ProtectedModifier {
+}

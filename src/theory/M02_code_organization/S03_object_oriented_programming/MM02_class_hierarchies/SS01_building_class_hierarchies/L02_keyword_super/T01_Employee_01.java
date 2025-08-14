@@ -1,0 +1,45 @@
+package theory.M02_code_organization.S03_object_oriented_programming.MM02_class_hierarchies.SS01_building_class_hierarchies.L02_keyword_super;
+
+/*
+Fiona created a hierarchy consisting of three classes: Employee,
+RegularEmployee and ContractEmployee.
+But here is one problem: her code doesn't compile.
+Examine the constructor chaining and the use of super and this. Without
+removing any lines of code, make the necessary additions and adjustments to
+resolve the compilation errors and accurately represent the employee hierarchy.
+*/
+
+class Employee_01 {
+
+    protected String name;
+    protected String birthDate;
+
+    public Employee_01(String name, String birthDate) {
+        this.name = name;
+        this.birthDate = birthDate;
+    }
+}
+
+class RegularEmployee extends Employee_01 {
+
+    protected long salary;
+    protected String hireDate;
+
+    public RegularEmployee(String name, String birthDate, long salary, String hireDate) {
+        super(name, birthDate);
+        this.salary = salary;
+        this.hireDate = hireDate;
+    }
+}
+
+class ContractEmployee extends Employee_01 {
+
+    protected long payPerHour;
+    protected String contractPeriod;
+
+    public ContractEmployee(String name, String birthDate, long payPerHour, String contractPeriod) {
+        super(name, birthDate);
+        this.payPerHour = payPerHour;
+        this.contractPeriod = contractPeriod;
+    }
+}
