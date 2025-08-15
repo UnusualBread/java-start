@@ -1,6 +1,6 @@
 package theory.M01_basics.S06_strings.L04_text_blocks;
 
-public class T02_TextBlockPrinter {
+public class T02_TextBlockPrinter_01 {
     public static void main(String[] args) {
         String str = """
                 I have a friend
