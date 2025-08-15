@@ -1,4 +1,4 @@
-package projects.D01_easy.P01_my_first_project_with_java;
+package projects.D01_easy.P01_my_first_project_with_java.calculator;
 
 import java.util.Scanner;
 
