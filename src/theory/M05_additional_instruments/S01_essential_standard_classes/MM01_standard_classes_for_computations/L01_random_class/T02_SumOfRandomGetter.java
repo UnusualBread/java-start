@@ -1,5 +1,11 @@
 package theory.M05_additional_instruments.S01_essential_standard_classes.MM01_standard_classes_for_computations.L01_random_class;
 
+/*
+You are given three numbers: n , a and b.
+Your task is to output the sum of the first n random numbers in a range from a
+to b inclusively. The seed of the generator should be set as a + b.
+*/
+
 import java.util.Random;
 import java.util.Scanner;
 

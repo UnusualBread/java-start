@@ -1,5 +1,12 @@
 package theory.M05_additional_instruments.S01_essential_standard_classes.MM01_standard_classes_for_computations.L01_random_class;
 
+/*
+Your job is to find the seed between A and B (both inclusive) that produces N
+pseudorandom numbers from 0 (inclusive) to K (exclusive). It should also have
+the maximum of these N numbers to be the minimum among all maximums of other
+seeds in this range.
+*/
+
 import java.util.Random;
 import java.util.Scanner;
 
