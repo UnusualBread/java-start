@@ -1,0 +1,4 @@
+package theory.M05_additional_instruments.S01_essential_standard_classes.MM01_standard_classes_for_computations.L01_random_class;
+
+public class T01_SeedFinder {
+}
