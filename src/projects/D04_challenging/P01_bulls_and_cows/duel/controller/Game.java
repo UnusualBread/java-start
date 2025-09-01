@@ -42,7 +42,7 @@ public class Game {
 
     private static void printResult(Player player1, Player player2) {
         if (player1.getIsWinner() && player2.getIsWinner()) System.out.println("Draw!");
-        else if (player1.getIsWinner()) System.out.printf("%s won in %d!", player1.getName(), player1.getTurns());
+        else if (player1.getIsWinner()) System.out.printf("%s won in %d moves!", player1.getName(), player1.getTurns());
         else System.out.printf("%s won in %d moves!", player2.getName(), player2.getTurns() - 1);
     }
 
