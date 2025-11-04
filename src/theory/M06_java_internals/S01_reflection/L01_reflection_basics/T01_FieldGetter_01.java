@@ -6,7 +6,7 @@ declared in a class. You should count public, protected, default (package)
 access, and private fields, excluding inherited fields.
 */
 
-class FieldGetter {
+class T01_FieldGetter_01 {
 
     public int getNumberOfFieldsClassDeclares(Class<?> clazz) {
         return clazz.getDeclaredFields().length;
