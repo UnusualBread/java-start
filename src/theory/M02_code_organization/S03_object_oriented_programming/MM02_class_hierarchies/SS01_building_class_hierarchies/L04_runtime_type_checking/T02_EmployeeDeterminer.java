@@ -1,5 +1,14 @@
 package theory.M02_code_organization.S03_object_oriented_programming.MM02_class_hierarchies.SS01_building_class_hierarchies.L04_runtime_type_checking;
 
+/*
+You are given a class hierarchy consisting of three classes. The base class is
+Employee. The first subclass is Developer, the second subclass is DataAnalyst.
+
+Implement a method determineWhoIsWho. The method takes an array of employees.
+Each element belongs to one of the listed classes. The method should output the
+type (DEV, EMP or DA) of each element in a new line.
+*/
+
 import java.util.Arrays;
 
 class Determiner {
