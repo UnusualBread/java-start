@@ -1,4 +1,4 @@
-package theory.M03_working_with_data.S01_file_processing.L01_file_class;
+package theory.M03_working_with_data.S02_file_processing.L01_file_class;
 
 /*
 Implement the method areSibling that checks if the files have the same parent.
