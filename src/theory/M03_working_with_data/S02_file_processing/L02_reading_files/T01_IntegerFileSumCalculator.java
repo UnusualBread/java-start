@@ -1,4 +1,4 @@
-package theory.M03_working_with_data.S01_file_processing.L02_reading_files;
+package theory.M03_working_with_data.S02_file_processing.L02_reading_files;
 
 import java.io.File;
 import java.io.FileNotFoundException;
