@@ -7,7 +7,7 @@ Write a program that subtracts N hours and adds M minutes to a date-time pair.
 import java.time.LocalDateTime;
 import java.util.Scanner;
 
-public class T02_DateTimePointCalculator {
+public class T02_DateTimePointCalculator_01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         LocalDateTime dateTime = LocalDateTime.parse(sc.nextLine());
