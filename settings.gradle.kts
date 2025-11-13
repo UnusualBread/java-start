@@ -1,4 +1,4 @@
-rootProject.name = "JavaStart"
+rootProject.name = "java-start"
 
 include(":", "utils")
 
