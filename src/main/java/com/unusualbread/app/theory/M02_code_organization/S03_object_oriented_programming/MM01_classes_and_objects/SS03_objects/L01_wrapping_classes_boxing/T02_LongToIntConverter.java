@@ -1,0 +1,35 @@
+package com.unusualbread.app.theory.M02_code_organization.S03_object_oriented_programming.MM01_classes_and_objects.SS03_objects.L01_wrapping_classes_boxing;
+
+/*
+Implement a method for converting a Long value to int (primitive type)
+according to the following rules:
+
+if the given value is null the method should return the default value for ints;
+
+if the given value is greater than Integer.MAX_VALUE the method should return
+the max value for ints;
+
+if the given value is lesser than Integer.MIN_VALUE the method should return
+the min value for ints;
+
+otherwise, the method should return the same value as the passed argument.
+*/
+
+import java.util.Scanner;
+
+public class T02_LongToIntConverter {
+
+    public static int convert(Long val) {
+        if (val == null) return 0;
+        if (val > Integer.MAX_VALUE) return Integer.MAX_VALUE;
+        if (val < Integer.MIN_VALUE) return Integer.MIN_VALUE;
+        return val.intValue();
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String val = scanner.nextLine();
+        Long longVal = "null".equals(val) ? null : Long.parseLong(val);
+        System.out.println(convert(longVal));
+    }
+}
