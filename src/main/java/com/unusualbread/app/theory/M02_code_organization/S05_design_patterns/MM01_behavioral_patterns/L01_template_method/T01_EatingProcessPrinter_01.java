@@ -53,7 +53,7 @@ class Steak extends Meal {
     }
 }
 
-public class T01_EatingProcessPrinter {
+public class T01_EatingProcessPrinter_01 {
     public static void main(String[] args) {
         final Scanner scanner = new Scanner(System.in);
         final String author = scanner.nextLine();
