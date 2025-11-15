@@ -5,7 +5,7 @@ Correct the code to make it compilable. The program should print:
 "Passed value: value"
 */
 
-class T01_PassedValuePrinter {
+class T01_PassedValuePrinter_01 {
     public static void main(String... args) {
         Printer<String> printer = new Printer<>();
 
