@@ -1,5 +1,6 @@
 plugins {
     java
+    kotlin("jvm")
 }
 
 allprojects {
@@ -21,4 +22,8 @@ subprojects {
 
 dependencies {
     implementation(project(":utils"))
+    implementation(kotlin("stdlib-jdk8"))
+}
+repositories {
+    mavenCentral()
 }
