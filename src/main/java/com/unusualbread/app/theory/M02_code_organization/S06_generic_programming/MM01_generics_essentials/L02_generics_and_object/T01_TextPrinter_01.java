@@ -17,7 +17,7 @@ class Holder<T> {
     }
 }
 
-class T01_TextPrinter {
+class T01_TextPrinter_01 {
     public static void main(String... args) {
         Holder<String> holder = new Holder<>();
 
