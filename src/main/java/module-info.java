@@ -1,4 +1,3 @@
-open module com.unusualbread.app {
+module com.unusualbread.app {
     requires com.unusualbread.utils;
-    requires kotlin.stdlib;
 }
