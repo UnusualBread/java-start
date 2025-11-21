@@ -1,6 +1,5 @@
 plugins {
     java
-    kotlin("jvm")
 }
 
 allprojects {
@@ -9,21 +8,21 @@ allprojects {
     }
 }
 
-subprojects {
-    apply(plugin = "java")
-
-    java {
-        toolchain {
-            languageVersion.set(JavaLanguageVersion.of(23))
-        }
-        modularity.inferModulePath.set(true)
-    }
-}
-
 dependencies {
     implementation(project(":utils"))
-    implementation(kotlin("stdlib-jdk8"))
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.14.1")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.14.1")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.10.2")
 }
+
 repositories {
     mavenCentral()
+}
+
+tasks.register("rebuild") {
+    dependsOn("clean", "build")
+}
+
+tasks.test {
+    useJUnitPlatform()
 }
