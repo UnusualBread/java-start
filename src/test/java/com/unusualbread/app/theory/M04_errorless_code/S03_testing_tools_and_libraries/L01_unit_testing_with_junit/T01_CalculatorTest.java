@@ -4,11 +4,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class CalculatorTest {
+public class T01_CalculatorTest {
 
     @Test
     void add() {
-        Calculator calculator = new Calculator();
+        T01_Calculator calculator = new T01_Calculator();
         int result = calculator.add(1, 2);
 
         assertEquals(3, result);
@@ -16,7 +16,7 @@ public class CalculatorTest {
 
     @Test
     void subtract() {
-        Calculator calculator = new Calculator();
+        T01_Calculator calculator = new T01_Calculator();
         int result = calculator.subtract(1, 2);
 
         assertEquals(-1, result);
@@ -24,7 +24,7 @@ public class CalculatorTest {
 
     @Test
     void multiply() {
-        Calculator calculator = new Calculator();
+        T01_Calculator calculator = new T01_Calculator();
         int result = calculator.multiply(1, 2);
 
         assertEquals(2, result);
@@ -32,7 +32,7 @@ public class CalculatorTest {
 
     @Test
     void divide() {
-        Calculator calculator = new Calculator();
+        T01_Calculator calculator = new T01_Calculator();
         int result = calculator.divide(1, 2);
 
         assertEquals(0, result);
