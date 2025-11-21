@@ -25,4 +25,9 @@ tasks.register("rebuild") {
 
 tasks.test {
     useJUnitPlatform()
+
+    testLogging {
+        events("passed", "skipped", "failed")
+        showStandardStreams = true
+    }
 }
