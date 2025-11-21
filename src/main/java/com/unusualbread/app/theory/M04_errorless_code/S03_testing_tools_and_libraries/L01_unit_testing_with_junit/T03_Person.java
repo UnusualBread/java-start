@@ -1,5 +1,14 @@
 package com.unusualbread.app.theory.M04_errorless_code.S03_testing_tools_and_libraries.L01_unit_testing_with_junit;
 
+/*
+Imagine that you got a task to fix an implementation of a Person class to make
+it pass the unit tests written according to business logic requirements.
+
+The Person class has a constructor that accepts two arguments, String name and
+int age, and should set the name and the age fields of the object according to
+the criteria set out in the unit tests.
+*/
+
 class Person {
     public static final String DEFAULT_NAME = "Unknown";
     public static final int MAX_AGE = 130;
