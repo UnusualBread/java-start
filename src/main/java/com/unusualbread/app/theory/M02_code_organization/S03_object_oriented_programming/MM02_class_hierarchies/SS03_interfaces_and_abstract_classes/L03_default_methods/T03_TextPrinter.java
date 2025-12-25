@@ -1,5 +1,11 @@
 package com.unusualbread.app.theory.M02_code_organization.S03_object_oriented_programming.MM02_class_hierarchies.SS03_interfaces_and_abstract_classes.L03_default_methods;
 
+/*
+Define and implement a default method print in the Printer interface to make
+code in the main method print the text This is a default message. Do not change
+either Main or ConsolePrinter classes.
+*/
+
 class Main {
     public static void main(String... args) {
         Printer2 printer = new ConsolePrinter();
