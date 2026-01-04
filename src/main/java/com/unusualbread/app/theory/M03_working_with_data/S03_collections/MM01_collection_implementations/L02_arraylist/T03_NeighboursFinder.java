@@ -1,5 +1,12 @@
 package com.unusualbread.app.theory.M03_working_with_data.S03_collections.MM01_collection_implementations.L02_arraylist;
 
+/*
+Write a program that finds the elements in an array of integers that are
+closest to a given integer. If you find several integers with the same distance
+to N, you should output all of them in ascending order. If there are several
+equal numbers, output them all.
+*/
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;

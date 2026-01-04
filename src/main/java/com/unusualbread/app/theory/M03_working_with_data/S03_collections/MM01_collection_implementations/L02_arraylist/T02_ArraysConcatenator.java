@@ -1,5 +1,10 @@
 package com.unusualbread.app.theory.M03_working_with_data.S03_collections.MM01_collection_implementations.L02_arraylist;
 
+/*
+Implement a method to concatenate all positive numbers of two input ArrayLists
+to a single resulting list.
+*/
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
