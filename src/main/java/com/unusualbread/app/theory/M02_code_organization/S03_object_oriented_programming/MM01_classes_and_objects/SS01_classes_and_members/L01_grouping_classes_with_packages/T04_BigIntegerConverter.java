@@ -1,4 +1,4 @@
-package com.unusualbread.app.theory.M02_code_organization.S03_object_oriented_programming.MM01_classes_and_objects.SS01_classes_and_members.L01_Grouping_classes_with_packages;
+package com.unusualbread.app.theory.M02_code_organization.S03_object_oriented_programming.MM01_classes_and_objects.SS01_classes_and_members.L01_grouping_classes_with_packages;
 
 /*
 In this task, you will need to access this class without importing it.
