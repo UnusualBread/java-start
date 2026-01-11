@@ -23,15 +23,27 @@ repositories {
     mavenCentral()
 }
 
-tasks.register("rebuild") {
-    dependsOn("clean", "build")
-}
-
 tasks.test {
     useJUnitPlatform()
+
+    doFirst {
+        val mockitoCoreAgent = configurations.testRuntimeClasspath.get()
+            .firstOrNull { it.name.contains("mockito-core") }
+
+        if (mockitoCoreAgent != null) {
+            jvmArgs = (jvmArgs ?: mutableListOf()).apply {
+                add("-javaagent:${mockitoCoreAgent.absolutePath}")
+                add("-Xshare:off")
+            }
+        }
+    }
 
     testLogging {
         events("passed", "skipped", "failed")
         showStandardStreams = true
     }
+}
+
+tasks.register("rebuild") {
+    dependsOn("clean", "build")
 }
